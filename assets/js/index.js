@@ -1,4 +1,3 @@
-import '../../node_modules/bootstrap/dist/js/bootstrap.bundle.js'
 
 const alertMessage = document.getElementById('alertMessage')
 const appendAlert = (message, type) => {
