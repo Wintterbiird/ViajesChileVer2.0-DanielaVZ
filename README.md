@@ -17,7 +17,6 @@ a verticales).
 condiciones)
 * Una sección con los datos de redes sociales de la agencia y números de contacto.
 ## Maqueta
-![maqueta-landingpage](assets/img/landind-page.png)
+![maqueta-landingpage](assets/img/Landing.png)
 
-## Mi pagina
-https://wintterbiird.github.io/Viajes-Chile-DanielaVZ/
+
