@@ -1,0 +1,21 @@
+@import '../abstracts/mixins';
+
+.card{
+    display:flex;
+    flex: 1 1 auto;
+}
+
+.card-img-top{
+    width: 30vh;
+    height: 100%;
+    object-fit: cover;
+    @include mobile{
+        width: 100%;
+    }
+}
+
+span{
+    font-size: 1.5rem;
+    padding-left: 4rem;
+}
+

@@ -1,0 +1,161 @@
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #000000;
+  color: #ffffff;
+  font-family: "Raleway", sans-serif;
+}
+
+.container {
+  border-top: 2px solid #ffffff;
+  margin-bottom: 4rem;
+}
+
+h3 {
+  font-size: 2rem;
+}
+
+h5 {
+  color: #000000;
+}
+
+p {
+  font-size: 1rem;
+}
+
+.modal-text {
+  color: #000000;
+}
+
+.card {
+  display: flex;
+  flex: 1 1 auto;
+}
+
+.card-img-top {
+  width: 30vh;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+@media only screen and (max-width: 600px) {
+  .card-img-top {
+    width: 100%;
+  }
+}
+
+span {
+  font-size: 1.5rem;
+  padding-left: 4rem;
+}
+
+#carouselExampleIndicators {
+  max-width: 1296px;
+  margin: 0 auto;
+}
+
+.carousel-img {
+  height: 500px;
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+@media only screen and (max-width: 600px) {
+  .carousel-img {
+    height: 400px;
+  }
+}
+
+#penguin-img {
+  -o-object-position: center top;
+     object-position: center top;
+}
+
+label {
+  margin-bottom: 0.5rem;
+  display: inline-block;
+}
+
+.form-row {
+  display: flex;
+}
+
+#container-rrss {
+  padding-top: 1rem;
+}
+
+.contact-rrss {
+  display: flex;
+  align-items: center;
+}
+
+.text-icon {
+  padding-top: 1rem;
+  padding-left: 1rem;
+}
+
+.navbar {
+  max-width: 1296px;
+  margin: 0 auto;
+}
+
+.nav-logo {
+  height: 1rem;
+}
+
+.testimony {
+  max-width: 1296px;
+  margin: 0 auto;
+}
+.testimony__title {
+  text-align: center;
+  padding: 1rem 0 1rem;
+}
+.testimony__container {
+  display: flex;
+  justify-content: center;
+  gap: 8rem;
+  border-top: 2px solid #ffffff;
+  margin-bottom: 2rem;
+}
+@media only screen and (max-width: 600px) {
+  .testimony__container {
+    flex-wrap: wrap;
+    gap: 1rem;
+  }
+}
+.testimony__user {
+  padding-top: 2rem;
+}
+.testimony__text {
+  width: 250px;
+  text-align: center;
+}
+.testimony__name {
+  text-align: center;
+}
+.testimony__img {
+  border: 1px solid #ffffff;
+  width: 100px;
+  height: 100px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 50%;
+  position: relative;
+  left: 30%;
+}
+
+.who-img {
+  width: 100%;
+  border-radius: 20px;
+}
+@media only screen and (max-width: 600px) {
+  .who-img {
+    display: none;
+  }
+}/*# sourceMappingURL=custom.css.map */

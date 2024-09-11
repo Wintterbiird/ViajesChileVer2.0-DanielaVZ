@@ -1,0 +1,10 @@
+@mixin mobile{
+    @media only screen and (max-width: 600px) {
+        @content;
+    }
+}
+
+@mixin layoutSize($max-width: 1296px){
+    max-width: $max-width;
+    margin: 0 auto;
+}

@@ -1,0 +1,9 @@
+@import '../abstracts/mixins';
+
+.navbar{
+    @include layoutSize(1296px);
+}
+
+.nav-logo{
+    height: 1rem;
+}

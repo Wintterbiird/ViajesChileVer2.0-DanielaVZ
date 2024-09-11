@@ -1,0 +1,9 @@
+@import '../abstracts/mixins';
+
+.who-img{
+    width: 100%;
+    border-radius: 20px;
+    @include mobile{
+        display: none;
+    }
+}
